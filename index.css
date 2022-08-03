@@ -42,9 +42,6 @@
             footer {
                 display: flex;
                 justify-content: center;
-                border-top: 1px solid green;
-                position: fixed;
-                width: 90%;
             }
 
             footer a {
