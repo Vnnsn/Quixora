@@ -30,7 +30,7 @@
             h1 {
                 color: black;
                 text-align: center;
-                 font-size: 25px;
+                font-size: 25px;
             }
 
             footer img {
@@ -56,3 +56,29 @@
             nav a:hover {
                 color: purple;
             }
+
+            .botoes-downloads {
+                text-align: center;
+                align-items: center;
+            }
+
+            .botoes-downloads button {
+                background-image: linear-gradient(46deg, rgba(89, 147, 42, 0.904), rgb(18, 212, 180));
+                border-color: chartreuse;
+                border-top: 19px;
+                border: none;
+                padding: 15px;
+                width: 10%;
+                border-radius: 50px;
+                color: black;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                padding: 10px;
+                padding-inline: 15px;
+                text-align: center;
+                }
+
+                .botoes-downloads h3 {
+                    text-align: left;
+                }
