@@ -1,6 +1,0 @@
-background-image: linear-gradient(46deg, rgba(99, 216, 4, 0.904), rgb(13, 255, 215));
-background-color: dodgerblue;
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4361389326130952"
-     crossorigin="anonymous"></script>
