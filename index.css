@@ -1,86 +1,39 @@
-            body {
-                color: black;
-                background-image: linear-gradient(46deg, rgba(99, 216, 4, 0.904), rgb(18, 212, 180));
-                font-family: Arial, Helvetica, sans-serif;
-            }
+body {
+    color: black;
+    background-image: linear-gradient(46deg, rgba(99, 216, 4, 0.904), rgb(18, 212, 180));
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 50px;
+    font-size: 120%;
 
-            ul {
-                display: flex;
-                justify-content: space-between;
-                list-style-type: none;
-                align-items: center;
-                padding: 16px;
-            }
+}
 
-            a {
-                text-decoration: none;
-                color: black;
-            }
+p {
+    text-align: justify;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-indent: 17px;
+}
 
-			header img {
-                width: 200px;
-                height: 200px;
-                border-radius: 50%;
-			}
-			
-            .center {
-                text-align: center;
-            }
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
 
-            h1 {
-                color: black;
-                text-align: center;
-                font-size: 25px;
-            }
+h2 {
+    text-transform: uppercase;
+}
 
-            footer img {
-                width: 90px;
-                height: 90px;
-                text-align: center;
-            }
+.cabeca {
+    display: inline-block;
 
-            footer {
-                display: flex;
-                justify-content: center;
-            }
+}
 
-            footer a {
-            margin: 4px;
-            text-align: center;
-            }
+.cabeca nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: black;
+}
 
-            .container {
-                padding: 0px 40px;
-            }
-
-            nav a:hover {
-                color: purple;
-            }
-
-            .botoes-downloads {
-                text-align: center;
-                align-items: center;
-            }
-
-            .botoes-downloads button {
-                background-image: linear-gradient(46deg, rgba(87, 160, 27, 0.904), rgb(14, 192, 162));
-                border-color: chartreuse;
-                border: none;
-                padding: 15px;
-                width: 15%;
-                border-radius: 100px;
-                color: black;
-                justify-content: center;
-                align-items: center;
-                padding: 17px;
-                text-align: center;
-                white-space: nowrap;
-                width: 30%;
-                overflow: hidden;
-                text-overflow:    ellipsis;
-                
-                }
-
-                .botoes-downloads h3 {
-                    text-align: left;
-                }
