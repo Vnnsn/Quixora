@@ -24,10 +24,12 @@ h1 {
 
 h2 {
     text-transform: uppercase;
+    text-align: justify;
 }
 
 .cabeca {
     display: inline-block;
+    text-align: ;
 
 }
 
@@ -37,3 +39,23 @@ h2 {
     color: black;
 }
 
+.cabeca nav ul li {
+    text-align: right;
+}
+
+.hero-content {
+    margin: 80px auto 0;
+    width: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+}
+
+.hero-content p {
+    background-color: rgba(0, 0, 0, .9);
+    font-size: 130%;
+    display: inline-block;
+    padding: 11px;
+    border-radius: 50px;
+
+}
