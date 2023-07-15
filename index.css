@@ -2,11 +2,10 @@ body {
     color: black;
     background-image: linear-gradient(46deg, rgba(99, 216, 4, 0.904), rgb(18, 212, 180));
     font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    width: 80%;
-    margin-bottom: 50px;
+    margin: 0;
+    margin-bottom: 10px;
     font-size: 120%;
-
+    margin-bottom: 15%;
 }
 
 p {
@@ -16,10 +15,19 @@ p {
     text-indent: 17px;
 }
 
+#titulo {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+
 h1 {
     color: black;
+    text-transform: uppercase;
     text-align: center;
-    font-size: 25px;
+    font-size: 70px;
+    justify-content: space-between;
 }
 
 h2 {
@@ -27,35 +35,55 @@ h2 {
     text-align: justify;
 }
 
-.cabeca {
-    display: inline-block;
-    text-align: ;
-
-}
-
 .cabeca nav ul {
     list-style-type: none;
     text-transform: uppercase;
+    padding:  20px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+.cabeca nav ul li a {
+    text-decoration: none;
     color: black;
-}
-
-.cabeca nav ul li {
-    text-align: right;
-}
-
-.hero-content {
-    margin: 80px auto 0;
-    width: 100%;
-    letter-spacing: 1px;
-    text-align: center;
-    color: white;
-}
-
-.hero-content p {
-    background-color: rgba(0, 0, 0, .9);
-    font-size: 130%;
     display: inline-block;
-    padding: 11px;
-    border-radius: 50px;
+}
 
+.cabeca nav ul li a:hover {
+    padding: 20px;
+    font-size: 25px;
+    display: block;
+}
+
+.cabeca nav li ul #ar:hover {
+    display: inline-block;
+    padding: 25px;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+.botoes {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    border: solid 5px;
+    padding: 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.botoes:hover {
+    font-size: 40px;
+    color: white;
 }
